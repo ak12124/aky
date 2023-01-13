@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f1be9d313b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <nav>
+        <img src="Images/logo.jpg" alt="Profile pic" class="logo" />
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>
+            Hi, I am <span>Ashok Kumar</span> <br />
+            from Alwar (Rajasthan)
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------about-------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/Images/profile.jpg" alt="profile pic" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p class="about-details">
+              My name is Ashok Kumar and I am a software developer. I am a
+              self-motivated person. I like to watch movies and web-series in my
+              free time. I love to do physical excerise daily.
+            </p>
+            <div class="tabs">
+              <div class="tab-titles">
+                <p class="active-link">Skills</p>
+                <p>Experience</p>
+                <p>Education</p>
+              </div>
+              <div class="contents">
+                <div class="tab-contents active-tab">
+                  <ul>
+                    <li><span>HTML</span></li>
+                    <li><span>CSS</span></li>
+                    <li><span>JavaScript</span></li>
+                    <li><span>React JS</span></li>
+                    <li><span>Bootstrap</span></li>
+                  </ul>
+                </div>
+
+                <div class="tab-contents">
+                  <ul>
+                    <li>
+                      <span>2020-present</span><br />
+                      Web Developer <br />
+                      Frontend Developer <br />
+                      Web Designing with React JS
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="tab-contents">
+                  <ul>
+                    <li>
+                      <span>2019-2020</span> <br />
+                      Study of Software Engineering
+                    </li>
+                    <li>
+                      <span>2014-2018</span> <br />
+                      B.Tech in Electrical Engineering
+                    </li>
+                    <li>
+                      <span>2013</span> <br />
+                      12<sup>th</sup> with Mathematics
+                    </li>
+                    <li>
+                      <span>2011</span> <br />
+                      10<sup>th</sup>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------------------------Project---------------------------------------------------- -->
+
+    <div id="project">
+      <div class="container">
+        <div class="row">
+          <div class="project-col-1">
+            <img src="/Images/VMS-1.png" alt="project pic" />
+            <div class="overlay">
+              <div class="img-detail">
+                <p>
+                  A video management system (VMS) orchestrates a surveillance
+                  workflow by integrating with cameras, encoders, recording
+                  systems, underlying storage infrastructure, client
+                  workstations, gateway systems and analytics software, mainly
+                  by providing a single interface for video surveillance
+                  infrastructure management.
+                </p>
+              </div>
+            </div>
+            <img src="/Images/web-design.jpg" alt="project pic" />
+            <div class="overlay">
+              <div class="img-detail">
+                <p>
+                  Web design is the process of planning, conceptualizing, and
+                  arranging content online. Today, designing a website goes
+                  beyond aesthetics to include the website's overall
+                  functionality. Web design also includes web apps, mobile apps,
+                  and user interface design.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project-col-2">
+            <h1 class="subtitle">My Projects and Tasks</h1>
+            <ul class="task-lists">
+              <li task-item>Frontend Engineer | Experienced on React</li>
+              <li task-item>Development experience with HTML5, CSS3</li>
+              <li task-item>
+                Worked on multiple websites with JavaScript as well as single
+                page applications with React
+              </li>
+              <li task-item>
+                Webpack Configuration with lazy loading implementation
+              </li>
+              <li task-item>
+                Developed, modified and implemented robust chatbot's front-end
+                that is widely used across multiple websites around the globe
+              </li>
+              <li task-item>
+                Working with team on design, development and integration of
+                real-time video surveillance solution
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------------------------------Contact------------------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>ak283260@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9785366840</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100004779973380"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/aky12124"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/ashok-kumar-240033257"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="Images/my cv.pdf" download
+              ><button class="dwld-btn">Download CV</button>
+            </a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                id=""
+                cols="30"
+                placeholder="Your Message"
+                rows="6"
+              ></textarea>
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Ashok Kumar</p>
+      </div>
+    </div>
+
+    <script>
+      let tablinks = document.querySelectorAll(".tab-titles p");
+
+      let tabcontents = document.querySelectorAll(".tab-contents");
+
+      tablinks.forEach((tablink, index) => {
+        tablink.addEventListener("click", () => {
+          tablinks.forEach((tablink) => {
+            tablink.classList.remove("active-link");
+          });
+          tablink.classList.add("active-link");
+
+          tabcontents.forEach((c) => {
+            c.classList.remove("active-tab");
+          });
+          tabcontents[index].classList.add("active-tab");
+        });
+      });
+
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxR_J0Hh7KdBD8uu2Q_WAfyGu24myyUTW-uesTW9MJASjw82BY_6zHeWmHjCyg9OQJR1A/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            console.log(response);
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.log("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
